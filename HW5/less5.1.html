@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 300px;
+            height: 100vh;
+        }
+.first,.second,.third{
+    height: 300px;
+    width: 300px;
+    background-color: #7303d4;
+}
+.first, .third{
+    border-radius: 50%;
+    border-top: 15px solid yellow;
+    border-right: 15px solid blue;
+    border-bottom: 15px solid greenyellow;
+    border-left: 15px solid violet;
+    animation: circle 5s linear infinite alternate;
+    }
+@keyframes circle {
+    from{
+        transform: rotate(360deg);
+
+    }
+    to{
+        transform: rotate(-360deg) scale(1.5);
+    }
+       }
+        .second{
+            animation: wave 2s linear infinite alternate;
+        }
+        .second{
+            background-color: #f3f348;
+        }
+        .third{
+            background-color: #93dd22;
+        }
+
+@keyframes wave {
+    from{transform: translate(0,0)}
+    10%{transform: translate(10px,10px)}
+    30%{transform: translate(30px,0)}
+    50%{transform: translate(50px,-10px)}
+    70%{transform: translate(70px,0)}
+    90%{transform: translate(90px,10px)}
+    to{transform: translate(110px,0)}
+    }
+
+    </style>
+
+    </head>
+<body>
+<div class="box">
+    <div class="first"></div>
+    <div class="second"></div>
+    <div class="third"></div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<
+body>
+
+класифкация селекторов
+
+1000 - inline
+100  - id
+10 - class
+1  - tag
+
+комбинирование селектора
+
+h1+p
+h1^p
+div>p>spam -конретный путь к обьекту
+
+псевдокласи и псевдоэлементы
+div:first-child{}
+div:last-child{}
+div:last-of-type{}
+
+div p::first-letter{}
+div p::first-line{}
+
+парны непарные, выбираем определенные объекты
+ul li:nth-child(n)
+ul li:nth-child(2n+6)
+ul li:nth-child(odd)
+ul li:nth-child(even)
+
+ul li:nth-last-child(n)
+
+псевдокласы before after
+
+button:hover{}
+button:active{}
+
+a:link{}
+a:visited{}
+
+li{}
+li::marker{}
+
+p::selection {} - изменения для выделенного обекта
+
+ul li::after{
+content:"kfjgblnmlkd"
+color:red}
+
+ul{padding-inline-start:10px or 0}
+ul li{list-style-type:none}
+ul::before{
+content:"_"
+font-weight:600
+color:coral}
+
+для иображения  {
+content:"" для изображения
+display:inline-block
+weight:10px;
+height:10px;
+margin-right 10px:
+background-image:url(ссылка на изобр без тегов img)
+backgroud-size:cover
+}
+
+форма регистрации
+тег <form  class="form regisrtation">
+    <label for="email">Ввведите своё имя</label>
+    <input type="email" name="email" id="email" placeholder="write email" required><sup>*</sup> указываем что отображать в поле
+
+    <label for="age">Ввведите свой возраст</label>
+    <input type="number" name="age" id="age" min="18" max="100">
+    <input type="date" name="age">
+
+    <label><input type="radio" name="gender"value="male">M</label>
+    <label><input type="radio" name="gender" value="female">F</label>
+
+    <label>
+        <input type="checkbox" name="newsletter"> - подпись на газеты
+    </label>
+
+    <label for="lorem">Страны</label>
+    <select id="lorem">
+        <option value="">Выберите страну</option>
+        <option value="ua">Ukraine</option>
+        <option value="usa">USA</option>
+        <option value="ca">Canada</option>
+        <option value="jp">Japan</option>
+    </select>
+
+    <label for="phone"></label>
+    <select id="phone">
+        <optgroup label="Apple">
+            <option value=""></option>
+        </optgroup>
+        <optgroup label="Samsung">
+            <option value=""></option>
+        </optgroup>
+    </select>
+
+    <textarea id="" ></textarea> я текствого поля
+    в цсс можно указать
+    resize:none
+
+
+<div>
+    <input type="submit" value="отослать">
+    <input type="reset" value="скинуть">
+</div>
+    
+</form>
+
+фокус плейсхолдер  см 6.6 видео по стилизации  инпута рамок и пресхолдера
+стилизация чекбокса и радиоботон см 6.7 видео
+
+
+</body>
+</html>
