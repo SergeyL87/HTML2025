@@ -120,14 +120,7 @@ main p{
     border-radius: 8px;
     background: #FFFFFE;
  }
-.enter-email{
-    color:  #C0C0C0;
-    /* 20 px - Paragraph 1 */
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
+
 .button-email{
     display: flex;
     height: 67px;
@@ -136,8 +129,8 @@ main p{
     align-items: center;
     gap: 10px;
     border-radius: 8px;
-    background: #6246EA;
-    color: #FFFFFE;
+    background:  #6246EA;
+    color:  #FFFFFE;
 
     /* 20 px - Sub Heading 2 */
     font-size: 20px;
@@ -145,6 +138,15 @@ main p{
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
+}
+input::placeholder{
+    color:  #C0C0C0;
+
+    /* 20 px - Paragraph 1 */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 .div-form{
     display: flex;
