@@ -25,7 +25,7 @@ ul{
 
 header h2{
     color: #001858;
-    font-family: "Plus Jakarta Sans";
+    font-family: "Plus Jakarta Sans",sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 600;
@@ -33,7 +33,7 @@ header h2{
 }
 header span{
     color:  #6246EA;
-    font-family: "Plus Jakarta Sans";
+    font-family: "Plus Jakarta Sans",sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -43,7 +43,7 @@ header span{
 ul a{
     color: #2B2C34;
     /* 20 px - Sub Heading 2 */
-    font-family: "Plus Jakarta Sans";
+    font-family: "Plus Jakarta Sans",sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -66,7 +66,7 @@ ul a{
     border-radius: 4px;
     background:  #6246EA;
     color: #FFFFFE;
-    font-family: "Plus Jakarta Sans";
+    font-family: "Plus Jakarta Sans",sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
