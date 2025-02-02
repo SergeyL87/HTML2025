@@ -21,7 +21,8 @@ header{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;}
+    align-items: center;
+}
 
 ul{
     display: flex;
@@ -87,9 +88,7 @@ main{
     justify-content: space-between;
     align-items: center;
 }
-.subscribe{
 
-}
 
 main h1{
     width: 617px;
@@ -153,4 +152,43 @@ input::placeholder{
     gap: 20px;
 }
 
+/*.......section........*/
 
+.category{
+    width: 1250px;
+    height: 500px;
+    margin: 0 auto;
+   }
+
+.category-text{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 67px;
+
+}
+.category-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0 68px 0
+}
+.card{
+    width: 220px;
+    height: 280px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFFFFE;
+
+    .category-cards h4{
+        width: 118px;
+        color: #232323;
+
+        /* 24 px - Sub heading 1 */
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+}
