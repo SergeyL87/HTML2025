@@ -206,7 +206,7 @@ input::placeholder {
     transition: 1s;
 
     /* For White Background */
-    box-shadow: 4px 6px 13px 0px rgba(215, 215, 215, 0.25);
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
 }
 
 .category h3 {
@@ -293,7 +293,7 @@ input::placeholder {
     border-radius: 12px;
     background: #FFFFFE;
     /* For White Background */
-    box-shadow: 4px 6px 13px 0px rgba(215, 215, 215, 0.25);
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
 }
 
 .card_course h4 {
