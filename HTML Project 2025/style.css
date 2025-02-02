@@ -228,9 +228,6 @@ input::placeholder {
 
 }
 
-.category-cards svg, h4 {
-    background-color: #ffffff;
-}
 
 .category-cards svg {
     width: 60px;
@@ -243,10 +240,10 @@ input::placeholder {
     transition: 1s;
     border-radius: 8px;
     background-color: #6246EA;
-
-
 }
-
+.all-card_center:hover h4{
+    color: white;
+}
 
 /*.................section2................*/
 
@@ -379,6 +376,7 @@ input::placeholder {
 }
 
 
+/*.................article...............*/
 
 
 
