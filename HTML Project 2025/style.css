@@ -278,6 +278,7 @@ input::placeholder{
     justify-content: center;
     align-items: center;
     gap: 15px;
+
 }
 .author_text{
     display: flex;
