@@ -187,9 +187,27 @@ input::placeholder{
     padding-left: 30px;
     transition: 1s;
 }
+.category h3{
+    color:  #2B2C34;
+    /* 24 px - Sub heading 1 */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.category a{
+    color:  #2B2C34;
+    text-align: right;
+    /* 20 px - Sub Heading 2 */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
     .category-cards h4{
         color:  #2B2C34;
-
         /* 24 px - Sub heading 1 */
         font-size: 24px;
         font-style: normal;
@@ -207,7 +225,9 @@ input::placeholder{
     background-color: #6246EA;
 
 
+
 }
+
 
 /*.................section2................*/
 
@@ -223,7 +243,7 @@ input::placeholder{
     display: flex;
     justify-content: space-between;
     text-align: center;
-    margin-top: 80px;
+    padding-top: 80px;
 }
 .course_name{
     display: flex;
@@ -237,7 +257,7 @@ input::placeholder{
     height: 425px;
     padding: 20px;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     border-radius: 12px;
     background: #FFFFFE;
@@ -245,7 +265,6 @@ input::placeholder{
 .card_course h4{
     width: 260px;
     color: #0D0D0D;
-
     /* 20 px - Sub Heading 2 */
     font-size: 20px;
     font-style: normal;
@@ -259,7 +278,6 @@ input::placeholder{
     justify-content: center;
     align-items: center;
     gap: 15px;
-    margin-top: 55px;
 }
 .author_text{
     display: flex;
@@ -288,7 +306,29 @@ input::placeholder{
     line-height: normal;
     text-transform: capitalize;
 }
-
+.browse h3{
+    color: #2B2C34;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.browse a{
+    color:  #2B2C34;
+    text-align: right;
+    /* 20 px - Sub Heading 2 */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.card_course>img{
+    width: 260px;
+    height: 198px;
+    border-radius: 12.599px;
+   }
 
 
 
