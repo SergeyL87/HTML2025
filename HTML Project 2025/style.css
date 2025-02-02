@@ -2,7 +2,6 @@
 
 * {
     font-family: "Plus Jakarta Sans", sans-serif;
-    /*background: #EFF0F3;*/
 }
 
 /*.............header..................................*/
@@ -82,7 +81,11 @@ ul a {
 
 /*.......main..................*/
 
-main {
+main{
+    width: 100%;
+    background: #EFF0F3;
+    }
+.subscribe {
     width: 1250px;
     height: 814px;
     margin: 0 auto;
@@ -92,7 +95,7 @@ main {
 }
 
 
-main h1 {
+.subscribe h1 {
     width: 617px;
     color: #2B2C34;
     /* 64 px - Heading 1 */
@@ -103,7 +106,7 @@ main h1 {
     text-transform: capitalize;
 }
 
-main p {
+.subscribe p {
     width: 652px;
     color: #9A9494;
 
@@ -160,24 +163,31 @@ input::placeholder {
 
 /*.......section........*/
 
+.section_1{
+    background: #EFF0F3;
+}
+
 .category {
     width: 1250px;
     height: 500px;
     margin: 0 auto;
+
+
+
 }
 
 .category-text {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    margin-top: 67px;
+    padding-top: 67px;
 }
 
 .category-cards {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 0 68px 0
+    padding: 50px 0 68px 0
 }
 
 .all-card_center {
@@ -194,6 +204,9 @@ input::placeholder {
     gap: 30px;
     padding-left: 30px;
     transition: 1s;
+
+    /* For White Background */
+    box-shadow: 4px 6px 13px 0px rgba(215, 215, 215, 0.25);
 }
 
 .category h3 {
@@ -279,6 +292,8 @@ input::placeholder {
     align-items: center;
     border-radius: 12px;
     background: #FFFFFE;
+    /* For White Background */
+    box-shadow: 4px 6px 13px 0px rgba(215, 215, 215, 0.25);
 }
 
 .card_course h4 {
