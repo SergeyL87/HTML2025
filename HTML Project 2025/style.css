@@ -173,16 +173,32 @@ input::placeholder{
     align-items: center;
     margin: 50px 0 68px 0
 }
-.card{
+.all-card_center {
     width: 220px;
     height: 280px;
     flex-shrink: 0;
     border-radius: 8px;
     background: #FFFFFE;
 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 30px;
+    transition: 1s;
+}
+.all-card_center:hover{
+    transition: 1s;
+    border-radius: 8px;
+    background-color: #6246EA;
+
+}
+
+
+
     .category-cards h4{
-        width: 118px;
-        color: #232323;
+        color:  #2B2C34;
 
         /* 24 px - Sub heading 1 */
         font-size: 24px;
@@ -190,5 +206,9 @@ input::placeholder{
         font-weight: 700;
         line-height: normal;
         text-transform: capitalize;
+
     }
-}
+    .category-cards svg, h4{
+        background-color: #ffffff;
+    }
+
